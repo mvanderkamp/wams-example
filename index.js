@@ -13,7 +13,7 @@ const os = require('os');
 
 // Establish server and routing using express
 const expressApp = express();
-expressApp.use('/', express.static(path.join(__dirname, 'dist')));
+expressApp.use('/', express.static(path.join(__dirname, 'static')));
 expressApp.use('/wams', express.static(path.join(__dirname, './node_modules/wams/dist/wams')));
 const server = http.Server(expressApp);
 

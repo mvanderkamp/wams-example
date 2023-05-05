@@ -1,0 +1,10 @@
+div#root {
+  touch-action: none;
+  background: green;
+  padding: 10px;
+  display: inline-grid;
+}
+
+canvas {
+  background: aliceblue;
+}
