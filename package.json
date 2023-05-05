@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "wams": "github:mvanderkamp/wams#easier-integration"
+  },
+  "name": "wams-example",
+  "description": "A quick demo of how WAMS would be used if we made it a library instead of a framework.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvanderkamp/wams-example.git"
+  },
+  "keywords": [
+    "wams"
+  ],
+  "author": "Michael van der Kamp",
+  "bugs": {
+    "url": "https://github.com/mvanderkamp/wams-example/issues"
+  },
+  "homepage": "https://github.com/mvanderkamp/wams-example#readme"
+}
